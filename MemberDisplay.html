@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership details</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon-16x16.png" />
+    <style>
+        .table-container {
+            margin: 20px;
+        }
+        .table {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .table thead th {
+            background-color: #242424;
+            color: white;
+        }
+
+        tbody{
+            color: #000;
+            font-weight: 600;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<div class="container table-container">
+    <h2 class="text-center my-4">Membership Details</h2>
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover table-primary table-dark table-striped-columns">
+            <thead>
+                <tr>
+                    <th>User Name</th>
+                    <th>User Tel</th>
+                    <th>Car Reg No</th>
+                    <th>Membership ID</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Membership Type</th>
+                </tr>
+            </thead>
+            <tbody id="parkingDetailsBody">
+                <tr class="table-primary fw-bold">
+                    <td id="userName"></td>
+                    <td id="userTel"></td>
+                    <td id="carReg"></td>
+                    <td id="mid"></td>
+                    <td id="std"></td>
+                    <td id="ed"></td>
+                    <td id="mt"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Bootstrap and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="script5.js"></script>
+</body>
+</html>

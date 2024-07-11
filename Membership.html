@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParkPro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon-16x16.png" />
+</head>
+<body>
+    <section id="membership-form">
+        <div class="heading">
+        <h2>Membership Registration</h2>
+        </div>
+        <div>
+        <form id="membershipRegistrationForm">
+            <label for="userName">User Name:</label>
+            <input type="text" id="userName" name="userName" required>
+
+            <label for="userTelephone">User Telephone Number:</label>
+            <input type="tel" id="userTelephone" name="userTelephone" required>
+
+            <label for="carRegistrationNumber">Car Registration Number:</label>
+            <input type="text" id="carRegistrationNumber" name="carRegistrationNumber" required>
+
+            <label for="membershipType">Membership Type:</label>
+            <select id="membershipType" name="membershipType" required>
+                <option value="">Select Membership</option>
+                <option value="platinum">Platinum</option>
+                <option value="gold">Gold</option>
+                <option value="silver">Silver</option>
+            </select>
+
+            <button id="subMem" type="submit">Register</button>
+        </form>
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="script3.js"></script>
+</body>
+</html>

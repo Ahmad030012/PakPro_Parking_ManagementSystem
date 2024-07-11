@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParkPro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon-16x16.png" />
+    
+</head>
+<body>
+    <section id="invoice-form">
+        <div class="heading">
+        <h2>Generate Invoice Billing</h2>
+        </div>
+        <form id="invoiceBillingForm">
+            <label for="userName">User Name:</label>
+            <input type="text" id="userName" name="userName" required>
+
+            <label for="parkingSpaceId">Parking Space ID:</label>
+            <input type="text" id="parkingSpaceId" name="parkingSpaceId" required>
+
+            <label for="hours">Hours:</label>
+            <input type="number" id="hours" name="hours" required>
+
+            <label for="carRegistrationNumber">Car Registration Number:</label>
+            <input type="text" id="carRegistrationNumber" name="carRegistrationNumber" required>
+
+            <button id="invBtn" type="submit">Generate Invoice</button>
+        </form>
+    </section>
+    <script src="script6.js"></script>
+</body>
+</html>

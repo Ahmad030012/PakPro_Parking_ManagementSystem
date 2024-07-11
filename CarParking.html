@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon-16x16.png" />
+    <title>CarParking</title>
+</head>
+<body>
+    <section id="parking-form">
+        <div class="heading">
+            <h2>Car Owner Form</h2>
+        </div>
+        <div>
+        <form id="carParkingForm">
+            
+            <label for="userName">Owner Name:</label>
+            <input type="text" id="userName" name="userName" required>
+            
+            <label for="userPhoneNumber">Owner Phone Number:</label>
+            <input type="tel" id="userPhoneNumber" name="userPhoneNumber" required>
+            
+            <label for="userAddress">Owner Address:</label>
+            <input id="userAddress" name="userAddress" required>
+
+            <label for="parkingLotId">ParkingLotID:</label>
+            <input type="text" id="parkingLotId" name="parkingLotId" required>
+            
+            <label for="carRegistrationNumber">Car Registration Number:</label>
+            <input type="text" id="carRegistrationNumber" name="carRegistrationNumber" required>
+
+            <label for="carColor">Car Color:</label>
+            <input type="text" id="carColor" name="carColor" required>
+
+            <label for="carType">Car Type:</label>
+            <input type="text" id="carType" name="carType" required>
+
+            <label for="membershipid">Membership Id</label>
+            <input type="text" id = "membershipid" name="membershipid">
+
+            <button id="carParkBtn" type="submit">Submit</button>
+        </form>
+
+    </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script1.js"></script>
+</body>
+</html>
